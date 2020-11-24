@@ -6,6 +6,7 @@ import * as TaskListStories from './PureTaskList.stories';
 
 Vue.use(Vuex);
 
+// 取得 vuex 資料
 export const store = new Vuex.Store({
     state: {
       tasks: TaskListStories.Default.args.tasks,
@@ -23,9 +24,11 @@ export const store = new Vuex.Store({
 export default {
   title: 'PureInboxScreen',
   component: PureInboxScreen,
+  // storybook 排除有 store 結尾的輸出(vuex 資料)
   excludeStories: /.*store$/,
 };
 
+// 共用 template 避免重複code
 const Template = (args, { argTypes }) => ({
   components: { PureInboxScreen },
   props: Object.keys(argTypes),
@@ -33,7 +36,9 @@ const Template = (args, { argTypes }) => ({
   store,
 });
 
+// 預設輸出內容
 export const Default = Template.bind({});
 
+// 輸出樣式：錯誤
 export const Error = Template.bind({});
 Error.args = { error: true };
