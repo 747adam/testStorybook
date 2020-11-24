@@ -17,5 +17,5 @@ jobs:
         with:
           # our project token, to see how to obtain it
           # refer to https://www.learnstorybook.com/intro-to-storybook/vue/en/deploy/
-          projectToken: project-token
+          projectToken: hm8xu2arjqj
           token: ${{ secrets.GITHUB_TOKEN }}
