@@ -1,5 +1,290 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots PureInboxScreen Default 1`] = `
+<div>
+  <div
+    class="page lists-show"
+  >
+    <nav>
+      <h1
+        class="title-page"
+      >
+        <span
+          class="title-wrapper"
+        >
+          Taskbox
+        </span>
+      </h1>
+    </nav>
+     
+    <div
+      class="list-items"
+    >
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled="disabled"
+            name="checked"
+            type="checkbox"
+          />
+           
+          <span
+            class="checkbox-custom"
+          />
+        </label>
+         
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly="readonly"
+            style="background: red;"
+            type="text"
+          />
+        </div>
+         
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled="disabled"
+            name="checked"
+            type="checkbox"
+          />
+           
+          <span
+            class="checkbox-custom"
+          />
+        </label>
+         
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly="readonly"
+            style="background: red;"
+            type="text"
+          />
+        </div>
+         
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled="disabled"
+            name="checked"
+            type="checkbox"
+          />
+           
+          <span
+            class="checkbox-custom"
+          />
+        </label>
+         
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly="readonly"
+            style="background: red;"
+            type="text"
+          />
+        </div>
+         
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled="disabled"
+            name="checked"
+            type="checkbox"
+          />
+           
+          <span
+            class="checkbox-custom"
+          />
+        </label>
+         
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly="readonly"
+            style="background: red;"
+            type="text"
+          />
+        </div>
+         
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled="disabled"
+            name="checked"
+            type="checkbox"
+          />
+           
+          <span
+            class="checkbox-custom"
+          />
+        </label>
+         
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly="readonly"
+            style="background: red;"
+            type="text"
+          />
+        </div>
+         
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled="disabled"
+            name="checked"
+            type="checkbox"
+          />
+           
+          <span
+            class="checkbox-custom"
+          />
+        </label>
+         
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly="readonly"
+            style="background: red;"
+            type="text"
+          />
+        </div>
+         
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  \`\`
+
+</div>
+`;
+
+exports[`Storyshots PureInboxScreen Error 1`] = `
+<div>
+  <div
+    class="page lists-show"
+  >
+    <div
+      class="wrapper-message"
+    >
+      <span
+        class="icon-face-sad"
+      />
+       
+      <div
+        class="title-message"
+      >
+        Oh no!
+      </div>
+       
+      <div
+        class="subtitle-message"
+      >
+        Something went wrong!
+      </div>
+    </div>
+  </div>
+  \`\`
+
+</div>
+`;
+
 exports[`Storyshots PureTaskList Default 1`] = `
 <div
   style="padding: 3rem;"
@@ -30,6 +315,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -67,6 +353,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -104,6 +391,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -141,6 +429,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -178,6 +467,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -215,6 +505,7 @@ exports[`Storyshots PureTaskList Default 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -253,13 +544,7 @@ exports[`Storyshots PureTaskList Empty 1`] = `
         <div
           class="title-message"
         >
-          You have no tasks
-        </div>
-         
-        <div
-          class="subtitle-message"
-        >
-          Sit back and relax
+          沒有待辨事項
         </div>
       </div>
     </div>
@@ -446,6 +731,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -483,6 +769,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -520,6 +807,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -557,6 +845,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -594,6 +883,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -631,6 +921,7 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readonly="readonly"
+          style="background: red;"
           type="text"
         />
       </div>
@@ -673,6 +964,7 @@ exports[`Storyshots Task Archived 1`] = `
     <input
       placeholder="Input title"
       readonly="readonly"
+      style="background: red;"
       type="text"
     />
   </div>
@@ -709,6 +1001,7 @@ exports[`Storyshots Task Default 1`] = `
     <input
       placeholder="Input title"
       readonly="readonly"
+      style="background: red;"
       type="text"
     />
   </div>
@@ -749,6 +1042,7 @@ exports[`Storyshots Task Pinned 1`] = `
     <input
       placeholder="Input title"
       readonly="readonly"
+      style="background: red;"
       type="text"
     />
   </div>
