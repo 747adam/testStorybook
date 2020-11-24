@@ -1,23 +1,24 @@
 import PureTaskList from './PureTaskList';
 import * as TaskStories from './Task.stories';
 
+// 輸出內容
 export default {
   component: PureTaskList,
   title: 'PureTaskList',
   decorators: [() => '<div style="padding: 3rem;"><story /></div>'],
 };
 
+// 共用 template 避免重複code
 const Template = (args, { argTypes }) => ({
   components: { PureTaskList },
   props: Object.keys(argTypes),
-  // We are reusing our actions from task.stories.js
   methods: TaskStories.actionsData,
   template: '<PureTaskList v-bind="$props" @pin-task="onPinTask" @archive-task="onArchiveTask" />',
 });
+
+// 預設輸出內容
 export const Default = Template.bind({});
 Default.args = {
-  // Shaping the stories through args composition.
-  // The data was inherited from the Default story in task.stories.js.
   tasks: [
     { ...TaskStories.Default.args.task, id: '1', title: 'Task 1' },
     { ...TaskStories.Default.args.task, id: '2', title: 'Task 2' },
@@ -28,11 +29,10 @@ Default.args = {
   ],
 };
 
+// 輸出樣式：置頂
 export const WithPinnedTasks = Template.bind({});
 WithPinnedTasks.args = {
-  // Shaping the stories through args composition.
-  // Inherited data coming from the Default story.
-  // 換掉第六組
+  // 換掉第六組，改為 TASK_PINNED 置頂
   tasks: [
     ...Default.args.tasks.slice(0, 5),
     { id: '6', title: 'Task 6 (pinned)第六組更換為置頂', state: 'TASK_PINNED' },
@@ -40,16 +40,17 @@ WithPinnedTasks.args = {
   loading: false,
 };
 
+// 輸出樣式：loading 中
 export const Loading = Template.bind({});
 Loading.args = {
   tasks: [],
   loading: true,
 };
 
+// 輸出樣式：無內容
 export const Empty = Template.bind({});
 Empty.args = {
-  // Shaping the stories through args composition.
-  // Inherited data coming from the Loading story.
+  // 繼承自Loading樣式的資料
   ...Loading.args,
   loading: false,
 };
