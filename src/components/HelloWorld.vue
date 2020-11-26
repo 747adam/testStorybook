@@ -14,7 +14,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 h3 {
   margin: 40px 0 0;
 }

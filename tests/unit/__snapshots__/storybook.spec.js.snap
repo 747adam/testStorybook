@@ -41,9 +41,9 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
+            id="testUnit"
             placeholder="Input title"
             readonly="readonly"
-            style="background: red;"
             type="text"
           />
         </div>
@@ -79,9 +79,9 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
+            id="testUnit"
             placeholder="Input title"
             readonly="readonly"
-            style="background: red;"
             type="text"
           />
         </div>
@@ -117,9 +117,9 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
+            id="testUnit"
             placeholder="Input title"
             readonly="readonly"
-            style="background: red;"
             type="text"
           />
         </div>
@@ -155,9 +155,9 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
+            id="testUnit"
             placeholder="Input title"
             readonly="readonly"
-            style="background: red;"
             type="text"
           />
         </div>
@@ -193,9 +193,9 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
+            id="testUnit"
             placeholder="Input title"
             readonly="readonly"
-            style="background: red;"
             type="text"
           />
         </div>
@@ -231,9 +231,9 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
           class="title"
         >
           <input
+            id="testUnit"
             placeholder="Input title"
             readonly="readonly"
-            style="background: red;"
             type="text"
           />
         </div>
@@ -313,9 +313,9 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -351,9 +351,9 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -389,9 +389,9 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -427,9 +427,9 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -465,9 +465,9 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -503,9 +503,9 @@ exports[`Storyshots PureTaskList Default 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -560,142 +560,21 @@ exports[`Storyshots PureTaskList Loading 1`] = `
     class="list-items"
   >
     <div
-      class="loading-item"
+      class="list-items"
     >
-      <span
-        class="glow-checkbox"
-      />
-       
-      <span
-        class="glow-text"
+      <div
+        class="wrapper-message"
       >
-        <span>
-          Loading
-        </span>
+        <span
+          class="icon-check"
+        />
          
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      class="loading-item"
-    >
-      <span
-        class="glow-checkbox"
-      />
-       
-      <span
-        class="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-         
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      class="loading-item"
-    >
-      <span
-        class="glow-checkbox"
-      />
-       
-      <span
-        class="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-         
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      class="loading-item"
-    >
-      <span
-        class="glow-checkbox"
-      />
-       
-      <span
-        class="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-         
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      class="loading-item"
-    >
-      <span
-        class="glow-checkbox"
-      />
-       
-      <span
-        class="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-         
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
-    </div>
-    <div
-      class="loading-item"
-    >
-      <span
-        class="glow-checkbox"
-      />
-       
-      <span
-        class="glow-text"
-      >
-        <span>
-          Loading
-        </span>
-         
-        <span>
-          cool
-        </span>
-         
-        <span>
-          state
-        </span>
-      </span>
+        <div
+          class="title-message"
+        >
+          沒有待辨事項
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -729,9 +608,9 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -767,9 +646,9 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -805,9 +684,9 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -843,9 +722,9 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -881,9 +760,9 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -919,9 +798,9 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
         class="title"
       >
         <input
+          id="testUnit"
           placeholder="Input title"
           readonly="readonly"
-          style="background: red;"
           type="text"
         />
       </div>
@@ -962,9 +841,9 @@ exports[`Storyshots Task Archived 1`] = `
     class="title"
   >
     <input
+      id="testUnit"
       placeholder="Input title"
       readonly="readonly"
-      style="background: red;"
       type="text"
     />
   </div>
@@ -999,9 +878,9 @@ exports[`Storyshots Task Default 1`] = `
     class="title"
   >
     <input
+      id="testUnit"
       placeholder="Input title"
       readonly="readonly"
-      style="background: red;"
       type="text"
     />
   </div>
@@ -1040,9 +919,9 @@ exports[`Storyshots Task Pinned 1`] = `
     class="title"
   >
     <input
+      id="testUnit"
       placeholder="Input title"
       readonly="readonly"
-      style="background: red;"
       type="text"
     />
   </div>

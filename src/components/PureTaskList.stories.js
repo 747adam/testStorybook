@@ -35,7 +35,7 @@ WithPinnedTasks.args = {
   // 換掉第六組，改為 TASK_PINNED 置頂
   tasks: [
     ...Default.args.tasks.slice(0, 5),
-    { id: '6', title: 'Task 6 (pinned)第六組更換為置頂', state: 'TASK_PINNED' },
+    { id: '6', title: '我是adam', state: 'TASK_PINNED' },
   ],
   loading: false,
 };
@@ -44,7 +44,6 @@ WithPinnedTasks.args = {
 export const Loading = Template.bind({});
 Loading.args = {
   tasks: [],
-  loading: true,
 };
 
 // 輸出樣式：無內容
