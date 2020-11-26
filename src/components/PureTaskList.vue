@@ -34,6 +34,7 @@
         return [
           ...this.tasks.filter(t => t.state === 'TASK_PINNED'),
           ...this.tasks.filter(t => t.state !== 'TASK_PINNED'),
+          // ...this.tasks
         ];
       },
       isEmpty() {
